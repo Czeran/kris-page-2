@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+.service:nth-child(3) {
+    padding-top: 28px;
+}
+}
+
+.testimonial_image {
+   border-radius: 100px;
+}
+
+#footer_area {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+.tparrows {
+    display: none !important;
+}
+
+.service_title a {
+    font-size: 15px;
+}
+
+.header_logo div p {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 4.5px;
+    margin-bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header_logo div p span {
+    color: #ff4848;
+}
+
+@media screen and (max-width: 767px) {
+    .header_logo div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_logo p {
+        margin-right: 19.5px;
+    }
+
+    .introduce_heading h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stricky-fixed {
+        background: #222222 !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .intorduce_img {
+        display: none !important;
+    }
+}
+
+.details_heading_contact--custom {
+    margin-bottom: 24px;
+}
